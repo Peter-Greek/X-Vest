@@ -23,9 +23,13 @@ Also, you can do /removevest to take the vest off and give it to someone else or
 
 # Use
 To use the commands do /vest (type)
+
 For light you can do /vest [light/Light/LIGHT/l/1]
+
 For medium you can do /vest [medium/Medium/MEDIUM/m/2]
+
 For heavy you can do /vest [heavy/Heavy/HEAVY/h/3]
+
 # Notes
 To use this script to its best you should have [Mythic Progress Bar](https://forum.fivem.net/t/dev-resource-mythic-progress-bar/527607) and [Mythic Notifications](https://forum.fivem.net/t/dev-resource-mythic-notifications/587071)
 the parts that need this are commented out but can easily be replaced with other progress bar and notification scripts.
