@@ -124,7 +124,7 @@ end)
 
 
 function vestgive(version, given)
-TriggerEvent("attach:armor")
+TriggerClientEvent("attach:armor")
 --exports['mythic_notify']:DoHudText('inform', "Press \"E\" to put on the vest or press \"G\" to give it to someone else. OR PRESS \"H\" to cancle the event") -- Add your own notification system here 
 		print(version.." invest give version")
         light = version  == "light" or version == "l" or version == "L" or version == "LIGHT" or version == "Light" or version == "1"
