@@ -155,7 +155,7 @@ TriggerClientEvent("attach:armor")
                     TriggerEvent("disabledWeapons",false)
                     TriggerEvent("destroyPropPerm")
                     givento = true
-                    TriggerServerEvent("ARPF:givevesttoserver", GetPlayerServerId(closestplayer),  types, givento)
+                    TriggerServerEvent("Xvest:givevesttoserver", GetPlayerServerId(closestplayer),  types, givento)
                     givento = false
                     given = false
                     break
