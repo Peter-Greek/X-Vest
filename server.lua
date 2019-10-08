@@ -17,3 +17,7 @@ RegisterCommand("removevest", function(source, args, raw)
 	end
 end, false)
 
+RegisterNetEvent("Xvest:givevesttoserver")
+AddEventHandler("Xvest:givevesttoserver",function(source, types, givento)
+	TriggerClientEvent("ARPF:vest", version, givento)
+end)
