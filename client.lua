@@ -154,8 +154,10 @@ TriggerEvent("attach:armor")
                 if distance2 <= 5 then  
                     TriggerEvent("disabledWeapons",false)
                     TriggerEvent("destroyPropPerm")
+                    print("given")
                     givento = true
-                    TriggerServerEvent("Xvest:givevesttoserver", GetPlayerServerId(closestplayer),  types, givento)
+                    otherperson = GetPlayerServerId(closestplayer)
+                    TriggerServerEvent("Xvest:givevesttoserver", otherperson,  types, givento)
                     givento = false
                     given = false
                     break
